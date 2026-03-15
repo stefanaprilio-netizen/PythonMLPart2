@@ -25,7 +25,7 @@ Sistem prediksi harga emas ANTAM dengan Machine Learning Operations (MLOps) pipe
 
 ## 🏗️ Project Structure
 
-```
+```text
 ANTAM_Gold_Price_MLOps/
 ├── ANTAM_Gold_Price_MLOps.ipynb     ← Main notebook
 ├── README.md                         ← Project documentation
@@ -196,7 +196,7 @@ jupyter notebook ANTAM_Gold_Price_MLOps.ipynb
 ## 📈 Notebook Contents
 
 | Section | Status | Description |
-|---------|---------|-----------|
+| --- | --- | --- |
 | 1. Setup & Libraries | ✅ | Import dependencies |
 | 2. Data Loading | ✅ | Load dari Kaggle |
 | 3. Preprocessing | ✅ | Cleaning & feature engineering |
@@ -211,7 +211,7 @@ jupyter notebook ANTAM_Gold_Price_MLOps.ipynb
 ## 🔧 Technical Stack
 
 | Component | Tools |
-|-----------|-------|
+| --- | --- |
 | **Data Processing** | Pandas, NumPy |
 | **Visualization** | Matplotlib, Seaborn, Plotly |
 | **ML/Stats** | scikit-learn, Prophet, statsmodels |
@@ -318,7 +318,7 @@ Untuk berkontribusi:
 
 ## 🗺️ Roadmap Timeline
 
-```
+```text
 Phase 1: ✅ Complete (Mar 2026)
   ├─ Data loading & preprocessing
   ├─ EDA & visualization
