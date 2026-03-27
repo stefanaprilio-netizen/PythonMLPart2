@@ -1,7 +1,7 @@
 # ANTAM Gold Price MLOps Project
 
-**Status**: 🚀 In Development (Phase 1 - Baseline Complete)  
-**Last Updated**: March 15, 2026  
+**Status**: 🚀 In Development (Phase 2 - Advanced Models In Progress)  
+**Last Updated**: March 27, 2026  
 **Dataset Downloaded**: ✅ Yes (4,893 records)
 
 ## 📋 Project Overview
@@ -121,7 +121,7 @@ jupyter notebook ANTAM_Gold_Price_MLOps.ipynb
 
 **Execution Status:**
 
-- ✅ All 7 notebook cells executed successfully
+- ✅ All notebook cells for Baseline, ARIMA, and Prophet executed successfully
 - ✅ Dataset downloaded: 4,893 records
 - ✅ Data processing: Complete
 - ✅ EDA visualizations: Generated (eda_analysis.png)
@@ -138,12 +138,17 @@ jupyter notebook ANTAM_Gold_Price_MLOps.ipynb
 
 ---
 
-### Phase 2: Advanced Models 🔄 (TODO)
+### Phase 2: Advanced Models 🔄 (IN PROGRESS)
+
+**Completed Models:**
+
+- [x] ARIMA (Statistical time series)
+  - ✓ Walk-Forward Validation (Rolling Forecast)
+- [x] Facebook Prophet (Additive model)
+  - ✓ Exogenous Lag Regressors (Lag 1-5) untuk 1-step ahead forecast akurat
 
 **Planned Models:**
 
-- [ ] ARIMA/SARIMA (Statistical time series)
-- [ ] Facebook Prophet (Additive model)
 - [ ] XGBoost (Gradient boosting dengan lagged features)
 - [ ] LSTM RNN (Deep learning)
 
@@ -324,8 +329,8 @@ Phase 1: ✅ Complete (Mar 2026)
   ├─ EDA & visualization
   └─ Baseline model & MLOps framework
 
-Phase 2: 🔄 Expected (Apr 2026)
-  ├─ Advanced models
+Phase 2: 🔄 In Progress (Mar 2026)
+  ├─ Advanced models (ARIMA & Prophet Completed)
   ├─ Hyperparameter tuning
   └─ Model comparison
 
@@ -342,7 +347,7 @@ Phase 4: 📋 Planned (Jun 2026)
 
 ---
 
-**Last Commit**: March 15, 2026  
-**Last Execution**: March 15, 2026 - All 7 cells executed successfully ✅  
+**Last Commit**: March 27, 2026  
+**Last Execution**: March 27, 2026 - Baseline, ARIMA, and Prophet cells executed successfully ✅  
 **Next Review**: When Phase 2 completes  
 **Maintainer**: MLOps Team
